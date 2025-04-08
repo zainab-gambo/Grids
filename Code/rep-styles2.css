@@ -103,7 +103,7 @@ img{
     margin-top: 150px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 375px) {
     .header{
         padding-right: 0px;
         padding-left: 0px;
@@ -113,10 +113,13 @@ img{
     .section1{
         grid-template-columns: 1,1fr; /*Stacks into 1 column on small screens*/
         grid-template-rows: 4, 1fr;
+        margin-left: 40px;
     } 
     .grid1{
         grid-column: 1;
         grid-row: 1;
+        margin-top: 0px; ;
+
     }
    .grid-combined{
     grid-column: 1;
