@@ -40,6 +40,10 @@ body{
 
 }
 
+img{
+    float: right;
+}
+
 .header{
     text-align: center;
     padding-right: 400px;
