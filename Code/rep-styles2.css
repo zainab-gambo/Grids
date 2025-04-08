@@ -103,9 +103,7 @@ body{
     .section1{
         grid-template-columns: 1,1fr; /*Stacks into 1 column on small screens*/
         grid-template-rows: 4, 1fr;
-        padding-right: 250px;
-        padding-left: 250px;
-
+        padding-left: 400px;
     } 
     .grid1{
         grid-column: 1;
@@ -126,6 +124,7 @@ body{
     .grid4{
         grid-column: 1;
         grid-row: 3;
+        margin-top: 0px;
     }
     
 } /* End of media query */
