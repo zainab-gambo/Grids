@@ -52,14 +52,13 @@ img{
     color:hsl(234, 12%, 34%)
 }
 
-.section1{
+.grid-container{
     display: grid;
-    grid-template-columns: repeat(3,0fr); /*3 equal columns*/
+    grid-template-columns: repeat(3, 1fr); /*3 equal columns*/
     grid-template-rows: 1fr; /*Unequal rows with different proportions*/
     row-gap: 20px;
     column-gap: 20px;
     justify-content: center;
-
 }
 
 
