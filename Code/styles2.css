@@ -1,26 +1,30 @@
-.poppins-light {
+.poppins {
     font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+  
+  
+
+
+ .light{
     font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
+
+ }
+
+ .medium{
     font-weight: 500;
-    font-style: normal;
-  }
+
+ }
+
+ .semibold{
+    font-weight: 600;
+
+ }
   
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-  }
+  
   
   h3 {
+    
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color:hsl(234, 12%, 34%)
@@ -40,8 +44,8 @@ body{
 
 }
 
-img{
-    float: right;
+img{     
+    float: right;  /*use flexbox instead of float*/
 }
 
 .header{
